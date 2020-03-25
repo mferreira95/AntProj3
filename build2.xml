@@ -14,7 +14,9 @@
 	
     <property name="main-class"  value="antproj3.AntProj3"/>
 
-
+	<presetdef name="javac">
+		<javac includeantruntime="false" />
+	</presetdef>
 
     <target name="clean">
         <delete dir="${build.dir}"/>
